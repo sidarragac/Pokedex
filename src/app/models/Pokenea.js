@@ -1,7 +1,7 @@
 class Pokenea {
     #id // int, unique identifier
     #name // string, name of the Pokenea
-    #height // int, height of the Pokenea
+    #height // int, height in centimiters of the Pokenea
     #ability // string, ability of the Pokenea
     #imageUrl // string, URL of the image of the Pokenea
     #phrase // string, phrase of the Pokenea
@@ -63,3 +63,5 @@ class Pokenea {
         this.#phrase = phrase
     }
 }
+
+module.exports = Pokenea
