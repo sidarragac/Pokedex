@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <title>Home</title>
 </head>
 <body>
-    <h1>HI!</h1>
-    <p>App running on Container: <%= hostname %></p>
+    <div class="container">
+        <div class="title">
+            <h1>Pokedex!</h1>
+            <h2>See the list of Pokeneas - "Nacidos en Antioquia"</h2>
+        </div>
+        <div class="buttons">
+            <a href="/pokedex/json" class="button">Get a random Pokenea as a JSON</a>
+            <a href="/pokedex/imageAndPhrase" class="button">See a Pokenea's image and phrase</a>
+        </div>
+        <p>App running on Container: <%= hostname %></p>
+    </div>
 </body>
 </html>
