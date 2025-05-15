@@ -8,6 +8,6 @@ const pokeneaSample = [
     new Pokenea(5, 'Luzmila Ortiz', 168, 'Emprendedora rural', 'LuzmilaOrtiz.jpeg', 'El que no arriesga en la plaza, no saborea el arequipe.'),
     new Pokenea(6, 'Tarsila Montoya', 162, 'Tejedora de cuentos campesinos', 'TarsilaMontoya.jpeg', 'A veces una buena historia cura más que una medicina.'),
     new Pokenea(7, 'Tiburcio Mejía', 185, 'Humorista callejero con sabiduría de pueblo', 'TiburcioMejia.jpeg', 'A la vida se le gana con carcajadas, no con quejas.'),
-]
+];
 
 module.exports = pokeneaSample
