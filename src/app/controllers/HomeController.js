@@ -1,9 +1,9 @@
-const os = require('os');
+const containerId = require('../services/hostInformation');
 
 class HomeController {
     async index(req, res) {
         res.render('home/index', {
-            'hostname': os.hostname(),
+            'hostname': containerId(),
         });
     }
 }
