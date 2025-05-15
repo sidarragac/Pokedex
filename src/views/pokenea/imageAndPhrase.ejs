@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/imageAndPhrase.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Pokedex</h1>
+            <h2>Imágen y Frase del Pokenea</h2>
+        </div>
+        <div class="info">
+            <img src="<%= pokenea.imageUrl %>" alt="Pokenea Image" class="pokeneaImg" />
+            <p>"<%= pokenea.phrase %>"</p>
+        </div>
+        <div class="buttons">
+            <a href="/" class="button">Inicio</a>
+            <a href="/pokedex/json" class="button">JSON de un Pokenea Random</a>
+            <a href="/pokedex/imageAndPhrase" class="button">Otro Pokenea</a>
+        </div>
+        <p>App ejecutandose en: <%= containerId %></p>
+    </div>
+</body>
+</html>
